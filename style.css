@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -871,6 +871,8 @@ h4 {
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
+        margin: 0;
+        padding: 0;
     }
     .bloc {
         padding-left: constant(safe-area-inset-left);
@@ -893,6 +895,8 @@ h4 {
     .page-container {
         overflow-x: hidden;
         position: relative;
+        margin: 0;
+        padding: 0;
     }
     h1,
     h2,
