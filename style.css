@@ -759,8 +759,13 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #000;
+    opacity: 0.5;
     padding: 40px 40px 40px 40px;
+}
+
+.opacity-none {
+    opacity: 1;
 }
 
 .bold-link {
@@ -781,7 +786,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -895,6 +900,17 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+}
+
+.text-title {
+    font-size: 20;
+    color: #000;
+}
+
+.text-white {
+    font-size: 20;
+    color: #FFF;
+    justify-content: center;
 }
 
 @media (max-width: 767px) {
