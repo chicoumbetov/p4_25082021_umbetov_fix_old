@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -706,8 +706,12 @@ p {
 }
 
 .social {
+    color: #fff;
+    margin: auto;
+}
 
-    margin: auto auto auto auto;
+.social-margin-top {
+    margin-top: 40px;
 }
 
 h2 {
@@ -759,9 +763,13 @@ h4 {
 }
 
 .black-background {
-    background-color: #000;
-    opacity: 0.5;
+    background-color: rgba(0, 0, 0, .7);
+    
     padding: 40px 40px 40px 40px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .opacity-none {
@@ -791,7 +799,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -903,14 +911,29 @@ h4 {
 }
 
 .text-title {
-    font-size: 20;
+    font-size: 24px;
     color: #000;
 }
 
 .text-white {
-    font-size: 20;
+    font-size: 20px;
     color: #FFF;
     justify-content: center;
+}
+
+.description-size {
+    font-size: 16px;
+}
+
+.quote-style {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.author-style {
+    font-size: 18px;
+    color: #333;
 }
 
 @media (max-width: 767px) {
