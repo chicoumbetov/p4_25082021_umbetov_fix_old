@@ -750,7 +750,7 @@ h4 {
 }
 
 .black {
-    color: #1f1f1f;
+    color: #1f1f1f!important;
 }
 
 .portfolio-thumb {
